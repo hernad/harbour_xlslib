@@ -18576,7 +18576,7 @@ XLSLIB_LIBS="$ICONV_LIBS $LIBS"
 
 ###########################################################
 
-ac_config_files="$ac_config_files Makefile src/Makefile targets/Makefile targets/test/Makefile build/msvc2005/ac-config.win32.h build/msvc2008/ac-config.win32.h"
+ac_config_files="$ac_config_files Makefile src/Makefile  build/msvc2005/ac-config.win32.h build/msvc2008/ac-config.win32.h"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -19653,8 +19653,6 @@ do
     "libtool") CONFIG_COMMANDS="$CONFIG_COMMANDS libtool" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
-    "targets/Makefile") CONFIG_FILES="$CONFIG_FILES targets/Makefile" ;;
-    "targets/test/Makefile") CONFIG_FILES="$CONFIG_FILES targets/test/Makefile" ;;
     "build/msvc2005/ac-config.win32.h") CONFIG_FILES="$CONFIG_FILES build/msvc2005/ac-config.win32.h" ;;
     "build/msvc2008/ac-config.win32.h") CONFIG_FILES="$CONFIG_FILES build/msvc2008/ac-config.win32.h" ;;
 
